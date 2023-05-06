@@ -1,8 +1,9 @@
-const Spinner = () => {
+// import spinnerImg from '../img/spinner.gif'
 
+const Spinner = () => {
   return (
-    <div className="spinner-container">
-      <div>Spinner!</div>
+    <div className="spinner-wrapper">
+      {/* <img src={spinnerImg} alt="Spinner" /> */}
     </div>
   )
 }

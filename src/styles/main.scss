@@ -2,3 +2,59 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+@media only screen and (min-width : 800px) {
+  div {
+    margin: 0;
+  }
+
+}
+
+// Misc Page Styles
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+// NavBar Styles
+
+// Footer Styles
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  font-size: 0.75rem;
+  .contact-container {
+    div {
+      padding: 10px;
+    }
+  }
+  .address {
+    text-align: left;
+  }
+
+  .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div {
+      padding: 0px 10px;
+    }
+  }
+  
+  .copyright {
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width : 800px) {
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

@@ -1,4 +1,49 @@
 * {
   box-sizing: border-box;
   margin: 0;
+}
+
+@media only screen and (min-width: 800px) {
+  div {
+    margin: 0;
+  }
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  font-size: 0.75rem;
+}
+footer .contact-container div {
+  padding: 10px;
+}
+footer .address {
+  text-align: left;
+}
+footer .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .links div {
+  padding: 0px 10px;
+}
+footer .copyright {
+  text-align: center;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 800px) {
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }/*# sourceMappingURL=main.css.map */
