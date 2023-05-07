@@ -19,21 +19,25 @@ function App() {
   return (
     <div className = "App">
         <BrowserRouter>
-          <NavBar /> 
-          <Routes>
-            <Route path='/' element={<Landing />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/location' element={<Location />} />
-            <Route path='/menu' element={<Menu />} />
-            <Route path='/shop' element={<Shop />} />
-            <Route path='/groups' element={<Groups />} />
-            <Route path='/accommodation' element={<Accommodation />} />
-            <Route path='/lessons' element={<Lessons />} />
-            <Route path='/photos' element={<Photos />} />
-          </Routes>
-          <RouteButtons />
-          <IGGrid />
-          <Footer />
+        <div className = "footer-flex">
+            <div>
+              <NavBar /> 
+              <Routes>
+                <Route path='/' element={<Landing />} />
+                <Route path='/about' element={<About />} />
+                <Route path='/location' element={<Location />} />
+                <Route path='/menu' element={<Menu />} />
+                <Route path='/shop' element={<Shop />} />
+                <Route path='/groups' element={<Groups />} />
+                <Route path='/accommodation' element={<Accommodation />} />
+                <Route path='/lessons' element={<Lessons />} />
+                <Route path='/photos' element={<Photos />} />
+              </Routes>
+              <RouteButtons />
+              <IGGrid />
+            </div>
+            <Footer />
+        </div>
       </BrowserRouter>
     </div>
   )

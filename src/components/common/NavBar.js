@@ -15,6 +15,10 @@ const NavBar = () => {
     <Nav className="me-auto">
     </Nav>
     <Nav>
+    <NavDropdown title="About" id="collasible-nav-dropdown">
+      <NavDropdown.Item as={Link} to='/location'>Hours & Location</NavDropdown.Item>
+      <NavDropdown.Item as={Link} to='/about'>About Coconut Club</NavDropdown.Item>
+    </NavDropdown>
     <Nav.Item>
       <Nav.Link as={Link} to='/menu'>Eat & Drink</Nav.Link> 
     </Nav.Item>
@@ -25,10 +29,6 @@ const NavBar = () => {
     <Nav.Item>
       <Nav.Link as={Link} to={'/shop'} >Shop</Nav.Link>
     </Nav.Item>
-    <NavDropdown title="About" id="collasible-nav-dropdown">
-      <NavDropdown.Item as={Link} to='/location'>Hours & Location</NavDropdown.Item>
-      <NavDropdown.Item as={Link} to='/about'>About Coconut Club</NavDropdown.Item>
-    </NavDropdown>
     </Nav>
   </Navbar.Collapse>
 </Container>

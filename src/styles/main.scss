@@ -1,6 +1,10 @@
+$tan: #F3EBE1;
+$orange: #C1895D;
+
 * {
   box-sizing: border-box;
   margin: 0;
+
 }
 
 @media only screen and (min-width : 800px) {
@@ -12,34 +16,112 @@
 
 // Misc Page Styles
 
-a {
+.footer-flex {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a,  a:hover {
   text-decoration: none;
   color: inherit;
 }
+
+
 // NavBar Styles
+
+// Route Buttons Styles
+
+.buttons-container {
+  background-image: url(../assets/buttons-bg.jpg), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.buttons {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
+  background-color: $tan;
+  border-radius: 30px;
+  width: 150px;
+  padding: 10px;
+  margin: 1.25rem;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+@media only screen and (min-width : 800px) {
+  .buttons {
+    max-width: 1100px;
+    padding: 60px 0;
+  }
+  .btn {
+    width: 200px;
+    margin: 2.25rem;
+    padding: 20px;
+  }
+
+}
+
+// Instagram Widget Styles
+
+article {
+  body {
+    min-height: inherit;
+  }
+  div:first-child {
+    max-height: 500px;
+  }
+}
+
+@media only screen and (min-width : 800px) {
+  article {
+    div:first-child {
+      max-height: inherit;
+    }
+  }
+
+}
+
+.iggrid-container {
+  padding-bottom: 20px;
+  background-color: $tan;
+}
 
 // Footer Styles
 
 footer {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
+  background-color: $tan;
   width: 100%;
   font-size: 0.75rem;
   .contact-container {
-    div {
-      padding: 10px;
-    }
+    padding: 0px 25px;
   }
   .address {
     text-align: left;
+    .address-title {
+      font-weight: 700;
+    }
   }
 
   .links{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
     div {
       padding: 0px 10px;
     }
