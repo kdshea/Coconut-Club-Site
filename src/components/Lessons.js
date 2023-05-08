@@ -1,7 +1,7 @@
 const Lessons = () => {
 
   return (
-    <div className="lessons-container">
+    <div className="lessons-container background-images">
       <div>Lessons!</div>
     </div>
   )

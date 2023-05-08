@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom'
+
 
 const RouteButtons = () => {
 
   return (
-    <div className="buttons-container">
+    <div className="buttons-container background-image">
       <div className="buttons">
           <div className = "btn">
             <a href="/about">About</a>

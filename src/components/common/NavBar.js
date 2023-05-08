@@ -8,7 +8,7 @@ const NavBar = () => {
 <Navbar collapseOnSelect expand="md">
 <Container>
   <Navbar.Brand as={Link} to="/">
-    <img width="150" height="150"src={logo} alt="Coconut Club Logo" className="d-inline-block align-top"/>{' '}
+    <img width="150" src={logo} alt="Coconut Club Logo" className="d-inline-block align-top"/>{' '}
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">

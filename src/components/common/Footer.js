@@ -4,7 +4,7 @@ const Footer = () => {
     <footer>
       <div className = "contact-container">
         <div className = "address">        
-          <span className = "address-title">Coconut Club Beach Cafe / Sumith Kumara Surf</span>
+          <span className = "title">Coconut Club Beach Cafe / Sumith Kumara Surf</span>
           <br />
           <span>Galle Road, Hikkaduwa, Southern Province, Sri Lanka</span>
           <br />

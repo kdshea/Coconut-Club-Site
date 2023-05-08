@@ -1,7 +1,7 @@
 const Menu = () => {
 
   return (
-    <div className="Menu-container">
+    <div className="menu-container background-images">
       <div>Menu!</div>
     </div>
   )

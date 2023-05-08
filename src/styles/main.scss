@@ -1,9 +1,13 @@
 $tan: #F3EBE1;
 $orange: #C1895D;
+$white-overlay: linear-gradient(rgba(242,235,226,0.7),rgba(242,235,226,0.3));
+$black-overlay: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3));
 
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  text-align: center;
 
 }
 
@@ -28,13 +32,150 @@ a,  a:hover {
   color: inherit;
 }
 
+.background-images {
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  width: 100%;
+  min-height: 800px;
+}
 
+.main-text {
+  margin: 50px 50px 0px 50px;
+}
+
+.title {
+  font-weight: 700;
+}
 // NavBar Styles
+
+@media only screen and (min-width : 800px) {
+
+  // NavBar Styles
+
+
+  .nav-item{
+    margin: 0 30px;
+    font-size: 1.25rem;
+  }
+}
+
+// Landing Page Styles
+
+.landing-container {
+  min-height: 100vh;
+}
+
+.hero {
+  background-image: url(../assets/landing-bg.jpg), $black-overlay;
+}
+
+.landing-flex {
+  background-color: $tan;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-detail {
+  color: $orange;
+  font-weight: 700;
+  margin: 60px auto;
+  max-width: 250px;
+}
+
+.landing-text {
+  margin: 0 30px;
+}
+
+@media only screen and (min-width : 800px) {
+
+  // Landing Page Styles
+
+  .landing-flex{
+    flex-direction: row;
+    padding: 100px 0;
+  }
+
+  .landing-detail {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .landing-text {
+    width: 50%;
+  }
+}
+
+// About Us Styles
+
+// Location Styles
+
+.location-container {
+  background-image: url(../assets/location-bg.jpg), $white-overlay;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hours-container, .directions-container, .directions-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: space-around;
+}
+
+.map-container {
+  max-width: 100%;
+}
+
+@media only screen and (min-width : 800px) {
+
+  // Location Styles
+  .hours-container, .directions-flex {
+    flex-direction: row;
+  }
+  .map-container {
+  iframe{
+    width: 600px;
+  }
+}
+}
+
+// Menu Styles
+.menu-container {
+  background-image: url(../assets/menu-bg.jpg), $white-overlay;
+}
+
+// Shop Styles
+
+// Groups Styles
+.groups-container {
+  background-image: url(../assets/groups-bg.jpg), $white-overlay;
+}
+
+// Accommodation Styles
+
+.accommodation-container {
+  background-image: url(../assets/accommodation-bg.jpg), $white-overlay;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+
+// Lessons Styles
+.lessons-container {
+  background-image: url(../assets/lessons-bg.jpg), $white-overlay;
+}
 
 // Route Buttons Styles
 
 .buttons-container {
-  background-image: url(../assets/buttons-bg.jpg), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  background-image: url(../assets/buttons-bg.jpg), $black-overlay;
   background-blend-mode: overlay;
   background-position: center;
   background-repeat: no-repeat; 
@@ -43,6 +184,7 @@ a,  a:hover {
 
 .buttons {
   margin: 0 auto;
+  padding: 40px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -64,6 +206,9 @@ a,  a:hover {
 }
 
 @media only screen and (min-width : 800px) {
+
+  // Route Buttons Style
+
   .buttons {
     max-width: 1100px;
     padding: 60px 0;
@@ -88,6 +233,9 @@ article {
 }
 
 @media only screen and (min-width : 800px) {
+
+  // Instagram Widget Styles
+
   article {
     div:first-child {
       max-height: inherit;
@@ -112,9 +260,6 @@ footer {
   }
   .address {
     text-align: left;
-    .address-title {
-      font-weight: 700;
-    }
   }
 
   .links{
@@ -134,9 +279,17 @@ footer {
 }
 
 @media only screen and (min-width : 800px) {
+
+  // Footer Styles
+
   .contact-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  footer {
+    .links {
+      font-size: 2rem;
+    }
   }
 }

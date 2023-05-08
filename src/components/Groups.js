@@ -1,10 +1,10 @@
-const Group = () => {
+const Groups = () => {
 
   return (
-    <div className="group-container">
-      <div>Group!</div>
+    <div className="groups-container background-images">
+      <div>Groups!</div>
     </div>
   )
 }
 
-export default Group
+export default Groups
