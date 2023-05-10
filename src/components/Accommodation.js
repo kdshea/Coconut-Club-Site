@@ -1,7 +1,7 @@
 const Accommodation = () => {
 
   return (
-    <div className="accommodation-container background-images">
+    <div className="accommodation-container background-images text-flex">
       <h1>the loft at coconut club</h1>
       <div className="main-text">
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a sagittis tellus. Sed at imperdiet ex, id mattis erat. Donec facilisis nisi a urna euismod, at vehicula sapien finibus. Donec in hendrerit ex. Mauris quis augue eu arcu malesuada lacinia. Donec ante ante, dictum vitae justo vitae, hendrerit porta tortor. Proin vel convallis purus, quis sollicitudin libero. Etiam id ipsum sed nibh rhoncus luctus. Fusce viverra metus vel tincidunt elementum.</p>

@@ -20,6 +20,22 @@ $black-overlay: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3));
 
 // Misc Page Styles
 
+h1{
+  color: $orange;
+}
+
+.text-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0px;
+}
+
+.main-text{
+  width: 50%;
+}
+
 .footer-flex {
   display: flex;
   min-height: 100vh;
@@ -110,6 +126,49 @@ a,  a:hover {
 
 // About Us Styles
 
+.about-container {
+  min-height: 100vh;
+  background-color: $tan;
+  padding-bottom: 100px;
+
+  img{
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.4);
+  }
+
+  .image-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .image-stack::after {
+    content: ' ';
+    display: table;
+    clear: both;
+  }
+  
+  .image-stack-top {
+      float: left;
+      width: 40%;
+      margin-right: -100%;
+      margin-left: 10%;
+      padding-top: 20%;
+      position: relative;
+      z-index: 1;
+  }
+  
+  .image-stack-bottom {
+      float: right;
+      margin-right: 10%;
+      width: 60%;
+  }
+}
+
+
 // Location Styles
 
 .location-container {
@@ -159,11 +218,6 @@ a,  a:hover {
 
 .accommodation-container {
   background-image: url(../assets/accommodation-bg.jpg), $white-overlay;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 30px 0;
 }
 
 
