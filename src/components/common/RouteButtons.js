@@ -5,30 +5,14 @@ const RouteButtons = () => {
   return (
     <div className="buttons-container background-image">
       <div className="buttons">
-          <div className = "btn">
-            <a href="/about">About</a>
-          </div>
-          <div className = "btn">
-            <a href="/location">Hours & Location</a>
-          </div>
-          <div className = "btn">
-            <a href="/menu">Menu</a>
-          </div>
-          <div className = "btn">
-            <a href="/shop">Shop</a>
-          </div>
-          <div className = "btn">
-            <a href="/groups">Events & Groups</a>
-          </div>
-          <div className = "btn">
-            <a href="/accommodation">Accommodation</a>
-          </div>
-          <div className = "btn">
-            <a href="/lessons">Surf Lessons</a>
-          </div>
-          <div className = "btn">
-            <a href="/photos">Surf Photos</a>
-          </div>
+        <a href="/about"><div className = "btn">About</div></a>
+        <a href="/location"><div className = "btn">Hours & Location</div></a>
+        <a href="/menu"><div className = "btn">Eat & Drink</div></a>
+        <a href="/groups"><div className = "btn">Events & Groups</div></a>
+        {/* <a href="/shop"><div className = "btn">Shop</div></a>
+        <a href="/accommodation"><div className = "btn">Accommodation</div></a> */}
+        <a href="/lessons"><div className = "btn">Surf Lessons</div></a>
+        <a href="/photos"><div className = "btn">Surf Photos</div></a>
         </div>
     </div>
   )

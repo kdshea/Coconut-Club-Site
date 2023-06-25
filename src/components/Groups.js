@@ -1,15 +1,22 @@
 const Groups = () => {
 
   return (
-    <div className="groups-container background-images">
-      <div className="text-flex">
-      <h1>groups & events</h1>
-      <div className="main-text">
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a sagittis tellus. Sed at imperdiet ex, id mattis erat. Donec facilisis nisi a urna euismod, at vehicula sapien finibus. Donec in hendrerit ex. Mauris quis augue eu arcu malesuada lacinia. Donec ante ante, dictum vitae justo vitae, hendrerit porta tortor. Proin vel convallis purus, quis sollicitudin libero. Etiam id ipsum sed nibh rhoncus luctus. Fusce viverra metus vel tincidunt elementum.</p>
-          <p>Integer faucibus urna eu ipsum vulputate maximus. Etiam bibendum massa sit amet nunc rhoncus, eget lacinia diam sollicitudin. Pellentesque euismod in arcu vel pharetra. Quisque turpis orci, euismod eget pellentesque scelerisque, imperdiet a mi. Cras congue volutpat eros ac faucibus. Fusce hendrerit eu metus et mollis. Donec rutrum, purus accumsan placerat hendrerit, ipsum tortor tristique augue, scelerisque aliquam neque tellus ac elit.</p>
+  <div className="groups-container">
+    <div className="groups-hero background-images">
+      <div className="text-title">
+        <h1>groups & events</h1>
         </div>
-      </div>
     </div>
+    <div className="main-text">
+      <h2 className="title">beachfront group dining & small events</h2>
+      <p>Whether you're planning a surf camp, yoga retreat, or any other occasion that calls for a beachside ambiance, we have just the space for you.  We believe in the power of food to bring people together. Although we are a cozy and intimate restaurant, we are more than happy to accommodate your special gathering with a little advance notice. Our venue sets the stage for casual and laid-back events, providing a picturesque backdrop of the ocean and the soothing sound of waves. </p>
+      <p>To ensure a seamless experience, we offer a separate catering menu specifically designed for group dining. With a variety of mouthwatering options made from fresh, local ingredients, our catering menu allows you to plan ahead and pre-order. From nourishing bowls to shareable platters, we have something for everyone. </p>
+      <h2 className="title">sunset beach barbecues</h2>
+      <p>Take your group dining to the next level with our beachside barbecues. In addition to our regular menu and catering options, we offer the perfect opportunity to savor the flavors of a delicious barbecue right on the sandy shores. We offer tailored packages including an array of delectable dishes, sides, and refreshing beverages. Bask in the breathtaking colors of the sunset and enjoy the crackling fire as we grill up a feast to remember.</p>
+      <h2 className="title">how to book</h2>
+      <p>Contact us via <a href="mailto: coconutclubhikka@gmail.com?subject=Groups and Events" target="_blank" rel="noopener noreferrer">Email</a>, <a href="https://wa.me/16177842606?text=I'm%20interested%20in%20hosting%20a%20group%20at%20Coconut%20Club" target="_blank" rel="noopener noreferrer"> Whatsapp</a>, or <a href="https://www.instagram.com/coconutclubhikka/" target="_blank" rel="noopener noreferrer">Instagram</a>  to discuss your group dining or small event needs.  Simply let us know the size of your group and provide us with tentative dates and time, and we’ll be in touch. Our friendly team is here to assist you in planning the perfect gathering, ensuring that every detail is taken care of.</p>
+      </div>
+  </div>
   )
 }
 

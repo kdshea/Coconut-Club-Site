@@ -1,26 +1,27 @@
-import Surf1 from '../assets/surf-photo-1.jpg'
-import Surf2 from '../assets/surf-photo-2.jpg'
-import Surf3 from '../assets/lessons-bg.jpg'
+// import Surf1 from '../assets/surf-photo-1.jpg'
+// import Surf2 from '../assets/surf-photo-2.jpg'
+// // import Surf3 from '../assets/lessons-bg.jpg'
 
 const About = () => {
 
   return (
     <div className="about-container">
-      <div className="text-flex">
-      <h1>about us</h1>
+      <div className="about-hero background-images">
+        <div className="text-title">
+          <h1>about us</h1>
+        </div>
+      </div>
       <div className="main-text">
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a sagittis tellus. Sed at imperdiet ex, id mattis erat. Donec facilisis nisi a urna euismod, at vehicula sapien finibus. Donec in hendrerit ex. Mauris quis augue eu arcu malesuada lacinia. Donec ante ante, dictum vitae justo vitae, hendrerit porta tortor. Proin vel convallis purus, quis sollicitudin libero. Etiam id ipsum sed nibh rhoncus luctus. Fusce viverra metus vel tincidunt elementum.</p>
-          <p>Integer faucibus urna eu ipsum vulputate maximus. Etiam bibendum massa sit amet nunc rhoncus, eget lacinia diam sollicitudin. Pellentesque euismod in arcu vel pharetra. Quisque turpis orci, euismod eget pellentesque scelerisque, imperdiet a mi. Cras congue volutpat eros ac faucibus. Fusce hendrerit eu metus et mollis. Donec rutrum, purus accumsan placerat hendrerit, ipsum tortor tristique augue, scelerisque aliquam neque tellus ac elit.</p>
-        </div>
+        <p>At Coconut Club Beach Cafe, we are more than just a cafe. We are a labor of love and a culmination of passion for the ocean, surf, and vibrant culinary experiences. Let us introduce ourselves and share our story. </p>
+        <p>Founded by Sumith, a seasoned surf instructor and hospitality professional, Coconut Club is the realization of a lifelong dream. With years of experience working as a surf instructor and just down the beach at Salty Swami's, Sumith's love for the beach and his expertise in hospitality converged to create this beachside haven.</p>
+        <p>Our journey began in early 2020 when Sumith opened his first restaurant, a vegan cafe, in Hikkaduwa. Unfortunately, challenges posed by the global pandemic altered plans. Undeterred, we adapted and transformed our vision to create Coconut Club Beach Cafe, a place where locals and travelers alike can immerse themselves in the beauty of our backyard beach.
+        </p>
+        <h2 className="title">values & vision</h2>
+        <p>We believe in the profound fortune of being able to embrace the beauty of the Indian Ocean. We understand the significance of slowing down, appreciating life's simple pleasures, and finding joy in the present moment. These values are at the core of everything we do at Coconut Club. Our vision is to create a welcoming space where everyone can experience our beloved beach just as we do. We aim to foster a sense of belonging and connection, where you can find solace, rejuvenation, and pure enjoyment by the ocean's edge.</p>
+        <h2 className="title">mission</h2>
+        <p>Our mission is to serve delicious food crafted from fresh, colorful ingredients. Our menu reflects our commitment to providing vibrant and nourishing culinary creations. But it's not just about the food - it's about the experience. We invite you to immerse yourself in our laid-back environment, where the focus is on being, rather than doing. Relax, savor the flavors, and create cherished memories as you bask in the tranquility of our beachside paradise.</p>
       </div>
-      <div className="image-stack">
-        <div className='image-stack-top'>
-          <img src={Surf2} alt="Surf1" />
-        </div> 
-        <div className='image-stack-bottom'>
-          <img src={Surf1} alt="Surf2" />
-        </div>
-      </div>
+
     </div>
   )
 }

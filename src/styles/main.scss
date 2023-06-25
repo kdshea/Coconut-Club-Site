@@ -1,14 +1,14 @@
 $tan: #F3EBE1;
 $orange: #C1895D;
-$white-overlay: linear-gradient(rgba(242,235,226,0.7),rgba(242,235,226,0.3));
-$black-overlay: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3));
+$nav-overlay: linear-gradient(rgba(242,235,226,0.6),rgba(242,235,226,0.3));
+$black-overlay: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7));
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-align: center;
-
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 @media only screen and (min-width : 800px) {
@@ -22,18 +22,37 @@ $black-overlay: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3));
 
 h1{
   color: $orange;
+  font-size: 3rem;
+  text-shadow: 0 0 5px rgba(0,0,0,.8);
 }
 
-.text-flex{
+.text-title{
+  margin-top: 35rem;
+}
+
+.main-text{
+  padding: 10% 0;
+  background-color: $tan;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 60px 0px;
+  font-size: 1.5rem;
+  p{
+    width: 80%;
+    min-width: 250px;
+    text-align: left;
+    a{
+      color: $orange;
+      margin-left: 10px;
+    }
+  }
 }
 
-.main-text{
-  width: 50%;
+.title {
+  font-weight: bold;
+  color: $orange;
+  margin: 1rem auto;
 }
 
 .footer-flex {
@@ -54,37 +73,58 @@ a,  a:hover {
   background-repeat: no-repeat; 
   background-size: cover;
   width: 100%;
-  min-height: 800px;
+  min-height: 100vh;
+  position: relative;
+  top: -84.2px;
+  padding-top: 84.2px;
+  margin-bottom: -84.2px;
 }
-
-.main-text {
-  margin: 50px 50px 0px 50px;
-}
-
-.title {
-  font-weight: 700;
-}
-// NavBar Styles
-
-@media only screen and (min-width : 800px) {
 
   // NavBar Styles
 
+nav {
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  background-image: $nav-overlay;
+  text-shadow: 0 0 2px rgba(255,255,255,.5);
+  .navbar-collapse.show{
+    margin-bottom: 84.2px;
+  }
+  .nav-link{
+    color: black !important;
+    text-shadow: 0 0 5px rgba(255,255,255,.5);
+  }
+  .dropdown-menu{
+    background-image: $nav-overlay;
+    background-color: #ffffff02;
+    backdrop-filter: blur(15px);
+    text-shadow: none;
+  }
 
+}
   .nav-item{
     margin: 0 30px;
     font-size: 1.25rem;
   }
-}
 
 // Landing Page Styles
 
 .landing-container {
-  min-height: 100vh;
+  background-color: $tan;
 }
 
 .hero {
-  background-image: url(../assets/landing-bg.jpg), $black-overlay;
+  min-height: 100vh;
+  position: relative;
+  top: -84.2px;
+  background-image: url(../assets/landing-bg.jpg), 
+  $black-overlay;
+  .text-title{
+    h2{
+      color: $tan;
+    }
+  }
 }
 
 .landing-flex {
@@ -95,16 +135,22 @@ a,  a:hover {
 
 .landing-detail {
   color: $orange;
-  font-weight: 700;
+  font-weight: bold;
   margin: 60px auto;
   max-width: 250px;
 }
 
 .landing-text {
   margin: 0 30px;
+  font-size: 1.5rem;
 }
 
 @media only screen and (min-width : 800px) {
+.main-text{
+  p{
+    width: 50%;
+  }
+}
 
   // Landing Page Styles
 
@@ -125,6 +171,10 @@ a,  a:hover {
 }
 
 // About Us Styles
+
+.about-hero {
+  background-image: url(../assets/about-bg.jpg), $black-overlay;
+}
 
 .about-container {
   min-height: 100vh;
@@ -171,11 +221,13 @@ a,  a:hover {
 
 // Location Styles
 
-.location-container {
-  background-image: url(../assets/location-bg.jpg), $white-overlay;
-  display: flex;
-  flex-direction: column;
+.location-hero {
+  background-image: url(../assets/location-bg.jpg), $black-overlay;
+}
 
+.location-container{
+  background-color: $tan;
+  font-size: 1.5rem;
 }
 
 .hours-container, .directions-container, .directions-flex {
@@ -183,19 +235,42 @@ a,  a:hover {
   flex-direction: column;
   align-items: space-around;
   justify-content: space-around;
+  margin: 0 auto;
 }
-
-.map-container {
+.hours-container, .directions-flex{
+  padding-top: 5rem;
+  width: 75%;
+  max-width: 600px;
+}
+.map-container, .directions-container {
   max-width: 100%;
+  padding-bottom: 5rem;
 }
 
 @media only screen and (min-width : 800px) {
 
   // Location Styles
   .hours-container, .directions-flex {
-    flex-direction: row;
+    // flex-direction: row;
+    width: 100%;
+    max-width: 1000px;
+  }
+  .directions-container{
+    align-items: center;
+    .direction-text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    p{
+      width: 85%;
+    }
   }
   .map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   iframe{
     width: 600px;
   }
@@ -203,27 +278,31 @@ a,  a:hover {
 }
 
 // Menu Styles
-.menu-container {
-  background-image: url(../assets/menu-bg.jpg), $white-overlay;
+.menu-hero {
+  background-image: url(../assets/menu-bg.jpg), $black-overlay;
 }
 
-// Shop Styles
 
 // Groups Styles
-.groups-container {
-  background-image: url(../assets/groups-bg.jpg), $white-overlay;
+.groups-hero {
+  background-image: url(../assets/groups-bg.jpg), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8));
 }
 
 // Accommodation Styles
-
-.accommodation-container {
-  background-image: url(../assets/accommodation-bg.jpg), $white-overlay;
+.accommodation-hero {
+  background-image: url(../assets/accommodation-bg.jpg), $black-overlay;
+  background-position: right bottom;
 }
 
 
 // Lessons Styles
-.lessons-container {
-  background-image: url(../assets/lessons-bg.jpg), $white-overlay;
+.lessons-hero {
+  background-image: url(../assets/lessons-bg.jpg), $black-overlay;
+}
+
+// Photos Styles
+.photos-hero {
+  background-image: url(../assets/photos-bg.jpg), $black-overlay;
 }
 
 // Route Buttons Styles
@@ -248,15 +327,20 @@ a,  a:hover {
 .btn {
   -webkit-transition: color 0.25s;
   transition: color 0.25s;
-  background-color: $tan;
-  border-radius: 30px;
+  color: $tan;
+  text-shadow: 0 0 5px rgba(0,0,0,.5);
+  background-color: #ffffff02;
+  backdrop-filter: blur(30px);
+  border: 0.5px solid $tan;
   width: 150px;
   padding: 10px;
   margin: 1.25rem;
+
 }
 
 .btn:hover {
   background-color: white;
+  text-shadow: none;
 }
 
 @media only screen and (min-width : 800px) {
@@ -264,7 +348,7 @@ a,  a:hover {
   // Route Buttons Style
 
   .buttons {
-    max-width: 1100px;
+    max-width: 900px;
     padding: 60px 0;
   }
   .btn {
@@ -299,7 +383,7 @@ article {
 }
 
 .iggrid-container {
-  padding-bottom: 20px;
+  padding: 100px 0;
   background-color: $tan;
 }
 
@@ -308,7 +392,6 @@ article {
 footer {
   background-color: $tan;
   width: 100%;
-  font-size: 0.75rem;
   .contact-container {
     padding: 0px 25px;
   }
@@ -327,6 +410,7 @@ footer {
   }
   
   .copyright {
+    margin-top: 10px;
     text-align: center;
     padding: 10px;
   }

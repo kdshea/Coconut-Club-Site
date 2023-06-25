@@ -27,8 +27,11 @@ const NavBar = () => {
       <NavDropdown.Item as={Link} to='/photos'>Surf Photography</NavDropdown.Item>
     </NavDropdown>
     <Nav.Item>
-      <Nav.Link as={Link} to={'/shop'} >Shop</Nav.Link>
+      <Nav.Link as={Link} to='/groups'>Groups</Nav.Link> 
     </Nav.Item>
+    {/* <Nav.Item>
+      <Nav.Link as={Link} to={'/shop'} >Shop</Nav.Link>
+    </Nav.Item> */}
     </Nav>
   </Navbar.Collapse>
 </Container>
