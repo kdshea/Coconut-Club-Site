@@ -27,7 +27,7 @@ const Footer = () => {
               </a>
             </div>
             <div>
-              <a href="https://wa.me/16177842606?text=Hello" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/94743355294?text=Hello" target="_blank" rel="noopener noreferrer">
               <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/whatsapp--v1.png" alt="whatsapp--v1"/>
               </a>
             </div>
@@ -48,7 +48,7 @@ const Footer = () => {
         <img src={Logo} alt="Coconut Club" width="150"/>        
         <div>
           <a href="https://kdshea.com/" target="_blank" rel="noopener noreferrer">
-          <span>Site Design & Build by Kate Shea</span>
+          <span>site design & build by kdshea web design</span>
           </a>
           </div>
         <span>© Coconut Club Beach Cafe 2023</span>
