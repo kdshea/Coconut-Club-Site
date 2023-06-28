@@ -2,8 +2,9 @@
 
 This project serves as an example of my work as a freelance developer. The website is a multipage static site built for Coconut Club Beach Cafe. I have obtained permission from the restaurant to share this website as part of my portfolio, showcasing my skills in front-end web development.
 
-## 🪴 About Me
-I'm a freelance full stack developer with a passion for crafting innovative web solutions. With expertise in both front-end and back-end technologies, I have successfully delivered a wide range of projects, including web applications, RESTful APIs, and database management. I continually strive to solve complex problems and provide efficient, user-friendly solutions.
+## Live Website
+
+You can access the live version of the Coconut Club website [here](https://www.coconutclubhikka.com/).
 
 ## Background
 
@@ -21,6 +22,9 @@ The Coconut Club website was developed using React and Bootstrap. By creating th
 - Add a PDF version of the menu for easy download and printing.
 - Integrate a third-party booking site to facilitate surf lessons and photography bookings.
 - Continuously improve the website's performance, design, and user experience.
+
+## 🪴 About Me
+I'm a freelance full stack developer with a passion for crafting innovative web solutions. With expertise in both front-end and back-end technologies, I have successfully delivered a wide range of projects, including web applications, RESTful APIs, and database management. I continually strive to solve complex problems and provide efficient, user-friendly solutions.
 
 ## Contact
 
