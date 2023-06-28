@@ -49,8 +49,4 @@ The following were used in this project:
 - [Tuk Tuks](https://www.pexels.com/photo/a-green-auto-rickshaws-on-a-road-near-palm-trees-11490132/) - Photo by Esra Geziyor
 
 
-## 📄 License
-
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
-
 **Note: I have obtained permission from the Coconut Club Beach Cafe to share this website as part of my portfolio.**
