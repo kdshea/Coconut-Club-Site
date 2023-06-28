@@ -1,22 +1,22 @@
-# Coconut Club Website
+# 🥥 Coconut Club Website
 
 This project serves as an example of my work as a freelance developer. The website is a multipage static site built for Coconut Club Beach Cafe. I have obtained permission from the restaurant to share this website as part of my portfolio, showcasing my skills in front-end web development.
 
-## Live Website
+## 🌐 Live Website
 
 You can access the live version of the Coconut Club website [here](https://www.coconutclubhikka.com/).
 
-## Background
+## 📖 Background
 
 The Coconut Club website was developed using React and Bootstrap. By creating this website, I aimed to showcase my skills in front-end development, including React components, state management, and responsive design. The website features a visually appealing layout and provides relevant information about the business.
 
-## Features
+## ✨ Features
 
 - Built with React to create modular and reusable components
 - Utilized Bootstrap for responsive design and pre-built UI components
 - Responsive design for seamless viewing on various devices
 
-## Future Plans
+## 🚀 Future Plans
 
 - Update the website with more high-quality images directly from the Coconut Club Beach Cafe.
 - Add a PDF version of the menu for easy download and printing.
@@ -38,7 +38,7 @@ If you have any questions or would like to discuss potential opportunities, plea
 
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/@kd_shea)
 
-## Stock Photo Credits
+## 📷 Stock Photo Credits
 
 Please note that the client had a limited amount of quality photos available for use, and stock photos were used to enhance the visual presentation of the website.
 The following were used in this project:
@@ -49,7 +49,7 @@ The following were used in this project:
 - [Tuk Tuks](https://www.pexels.com/photo/a-green-auto-rickshaws-on-a-road-near-palm-trees-11490132/) - Photo by Esra Geziyor
 
 
-## License
+## 📄 License
 
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
