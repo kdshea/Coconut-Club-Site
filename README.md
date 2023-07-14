@@ -49,4 +49,17 @@ The following were used in this project:
 - [Tuk Tuks](https://www.pexels.com/photo/a-green-auto-rickshaws-on-a-road-near-palm-trees-11490132/) - Photo by Esra Geziyor
 
 
-**Note: I have obtained permission from the Coconut Club Beach Cafe to share this website as part of my portfolio.**
+## Other Projects
+Take a look at other projects that I have in my own portfolio:
+
+**[Truffle Health Bill Upload](https://github.com/kdshea/Medical-Bill-Upload)**
+
+**[Seeker App](https://github.com/kdshea/Seeker-Full-Stack)** 
+
+**[Exploradex](https//github.com/kdshea/Exploradex-Server)** 
+
+**[Gmail Node Server](https://github.com/kdshea/Gmail-Node-Server)**
+
+**[Tetris Clone](https://github.com/kdshea/Tetris-Clone)**
+
+**[Speed Pour 2016](https://github.com/kdshea/Speed-Pour-2016)**
