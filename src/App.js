@@ -13,7 +13,7 @@ import Accommodation from './components/Accommodation'
 import Lessons from './components/Lessons'
 import Photos from './components/Photos'
 import RouteButtons from './components/common/RouteButtons'
-import IGGrid from './components/common/IGGrid'
+// import IGGrid from './components/common/IGGrid'
 
 function App() {
   return (
@@ -34,7 +34,7 @@ function App() {
                 <Route path='/photos' element={<Photos />} />
               </Routes>
               <RouteButtons />
-              <IGGrid />
+              {/* <IGGrid /> */}
             </div>
             <Footer />
         </div>
