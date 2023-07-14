@@ -8,7 +8,7 @@ const Groups = () => {
         </div>
     </div>
     <div className="main-text">
-      <h2 className="title">beachfront group dining & small events</h2>
+      <h2 className="title">group dining<br /> & small events</h2>
       <p>Whether you're planning a surf camp, yoga retreat, or any other occasion that calls for a beachside ambiance, we have just the space for you.  We believe in the power of food to bring people together. Although we are a cozy and intimate restaurant, we are more than happy to accommodate your special gathering with a little advance notice. Our venue sets the stage for casual and laid-back events, providing a picturesque backdrop of the ocean and the soothing sound of waves. </p>
       <p>To ensure a seamless experience, we offer a separate catering menu specifically designed for group dining. With a variety of mouthwatering options made from fresh, local ingredients, our catering menu allows you to plan ahead and pre-order. From nourishing bowls to shareable platters, we have something for everyone. </p>
       <h2 className="title">sunset beach barbecues</h2>

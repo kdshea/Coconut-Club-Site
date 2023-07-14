@@ -24,6 +24,7 @@ h1{
   color: $orange;
   font-size: 3rem;
   text-shadow: 0 0 5px rgba(0,0,0,.8);
+  font-weight: bold;
 }
 
 .text-title{
@@ -31,7 +32,7 @@ h1{
 }
 
 .main-text{
-  padding: 10% 0;
+  padding: 50px 0;
   background-color: $tan;
   display: flex;
   flex-direction: column;
@@ -39,20 +40,34 @@ h1{
   justify-content: center;
   font-size: 1.5rem;
   p{
+    font-size: 0.85rem;
     width: 80%;
     min-width: 250px;
     text-align: left;
     a{
       color: $orange;
-      margin-left: 10px;
     }
   }
 }
 
+@media only screen and (min-width : 800px) {
+  .main-text {
+    p{
+      font-size: 1.5rem;
+    }
+  }
+
+}
+
 .title {
+  font-size: 2.2rem;
   font-weight: bold;
   color: $orange;
   margin: 1rem auto;
+}
+
+h2.title{
+  padding: 50px 0;
 }
 
 .footer-flex {
@@ -400,13 +415,16 @@ footer {
   background-color: $tan;
   width: 100%;
   font-size: .8rem;
+
   .contact-container {
     padding: 0px 25px;
   }
   .address {
     text-align: left;
   }
-
+  .title{
+    font-size: .8rem;
+  }
   .links{
     display: flex;
     align-items: center;
@@ -434,6 +452,10 @@ footer {
     justify-content: space-between;
   }
   footer {
+    font-size: 1rem;
+    .title{
+      font-size: 1.25rem;
+    }
     .links {
       font-size: 2rem;
     }

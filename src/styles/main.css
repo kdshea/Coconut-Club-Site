@@ -15,6 +15,7 @@ h1 {
   color: #C1895D;
   font-size: 3rem;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  font-weight: bold;
 }
 
 .text-title {
@@ -22,7 +23,7 @@ h1 {
 }
 
 .main-text {
-  padding: 10% 0;
+  padding: 50px 0;
   background-color: #F3EBE1;
   display: flex;
   flex-direction: column;
@@ -31,19 +32,29 @@ h1 {
   font-size: 1.5rem;
 }
 .main-text p {
+  font-size: 0.85rem;
   width: 80%;
   min-width: 250px;
   text-align: left;
 }
 .main-text p a {
   color: #C1895D;
-  margin-left: 10px;
 }
 
+@media only screen and (min-width: 800px) {
+  .main-text p {
+    font-size: 1.5rem;
+  }
+}
 .title {
+  font-size: 2.2rem;
   font-weight: bold;
   color: #C1895D;
   margin: 1rem auto;
+}
+
+h2.title {
+  padding: 50px 0;
 }
 
 .footer-flex {
@@ -348,6 +359,9 @@ footer .contact-container {
 footer .address {
   text-align: left;
 }
+footer .title {
+  font-size: 0.8rem;
+}
 footer .links {
   display: flex;
   align-items: center;
@@ -368,6 +382,12 @@ footer .copyright {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  footer {
+    font-size: 1rem;
+  }
+  footer .title {
+    font-size: 1.25rem;
   }
   footer .links {
     font-size: 2rem;
