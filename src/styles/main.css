@@ -298,8 +298,8 @@ nav .dropdown-menu {
   -webkit-backdrop-filter: blur(30px);
           backdrop-filter: blur(30px);
   border: 0.5px solid #F3EBE1;
+  padding: 10px 0;
   width: 150px;
-  padding: 10px;
   margin: 1.25rem;
 }
 
@@ -340,6 +340,7 @@ footer {
   padding-top: 5rem;
   background-color: #F3EBE1;
   width: 100%;
+  font-size: 0.8rem;
 }
 footer .contact-container {
   padding: 0px 25px;

@@ -339,10 +339,9 @@ nav {
   background-color: #ffffff02;
   backdrop-filter: blur(30px);
   border: 0.5px solid $tan;
+  padding: 10px 0;
   width: 150px;
-  padding: 10px;
   margin: 1.25rem;
-
 }
 
 .btn:hover {
@@ -400,6 +399,7 @@ footer {
   padding-top: 5rem;
   background-color: $tan;
   width: 100%;
+  font-size: .8rem;
   .contact-container {
     padding: 0px 25px;
   }
