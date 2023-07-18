@@ -15,7 +15,7 @@ const Location = () => {
             <br />
             Serving Breakfast til Noon
             <br />
-            Dinner til 9pm & Drinks until Late
+            Dinner til 9pm & Drinks til Late
           </p>
         </div>
       </div>
