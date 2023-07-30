@@ -2,13 +2,14 @@ $tan: #F3EBE1;
 $orange: #C1895D;
 $nav-overlay: linear-gradient(rgba(242,235,226,0.6),rgba(242,235,226,0.3));
 $black-overlay: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7));
-
+$sans-serif: 'Plus Jakarta Sans', sans-serif;
+$serif: 'Cormorant Garamond', serif;
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: $sans-serif;
 }
 
 @media only screen and (min-width : 800px) {
@@ -53,7 +54,7 @@ h1{
 @media only screen and (min-width : 800px) {
   .main-text {
     p{
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
 
@@ -62,6 +63,7 @@ h1{
 .title {
   font-size: 2.2rem;
   font-weight: bold;
+  font-family: $serif;
   color: $orange;
   margin: 1rem auto;
 }
@@ -143,7 +145,13 @@ nav {
   background-image: url(../assets/landing-bg.jpg), 
   $black-overlay;
   .text-title{
+    h1{
+      font-family: $serif;
+      color: $tan;
+      font-weight: normal;
+    }
     h2{
+      font-size: 1rem;
       color: $tan;
     }
   }
@@ -160,11 +168,15 @@ nav {
   font-weight: bold;
   margin: 60px auto;
   max-width: 250px;
+  p{
+    font-family: $serif;
+    font-size: 1.5rem;
+  }
 }
 
 .landing-text {
   margin: 0 30px;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 @media only screen and (min-width : 800px) {
@@ -250,6 +262,12 @@ nav {
 .location-container{
   background-color: $tan;
   font-size: 1.5rem;
+  h3{
+    font-weight: bold;
+    font-family: $serif;
+    color: $orange;
+    margin: 1rem auto;
+  }
 }
 
 .hours-container, .directions-container, .directions-flex {

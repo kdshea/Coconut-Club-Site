@@ -43,12 +43,13 @@ h1 {
 
 @media only screen and (min-width: 800px) {
   .main-text p {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 .title {
   font-size: 2.2rem;
   font-weight: bold;
+  font-family: "Cormorant Garamond", serif;
   color: #C1895D;
   margin: 1rem auto;
 }
@@ -128,7 +129,13 @@ nav .dropdown-menu {
   top: -84.2px;
   background-image: url(../assets/landing-bg.jpg), linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7));
 }
+.hero .text-title h1 {
+  font-family: "Cormorant Garamond", serif;
+  color: #F3EBE1;
+  font-weight: normal;
+}
 .hero .text-title h2 {
+  font-size: 1rem;
   color: #F3EBE1;
 }
 
@@ -144,10 +151,14 @@ nav .dropdown-menu {
   margin: 60px auto;
   max-width: 250px;
 }
+.landing-detail p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5rem;
+}
 
 .landing-text {
   margin: 0 30px;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 @media only screen and (min-width: 800px) {
@@ -216,6 +227,12 @@ nav .dropdown-menu {
 .location-container {
   background-color: #F3EBE1;
   font-size: 1.5rem;
+}
+.location-container h3 {
+  font-weight: bold;
+  font-family: "Cormorant Garamond", serif;
+  color: #C1895D;
+  margin: 1rem auto;
 }
 
 .hours-container, .directions-container, .directions-flex {

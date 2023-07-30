@@ -9,7 +9,7 @@ const Location = () => {
       </div>
       <div>
       <div className="hours-container">
-        <h2 className="title">hours</h2>
+        <h2 className="title">HOURS</h2>
         <div>
           <p>Open Daily at 10am
             <br />
@@ -25,11 +25,11 @@ const Location = () => {
             </iframe>
         </div>
         <div className="directions-container">
-          <h2 className="title">getting here</h2>
+          <h2 className="title">GETTING HERE</h2>
           <div className="direction-text main-text">
-              <h3>From Hikkaduwa</h3>
+              <h3>FROM HIKKADUWA TOWN</h3>
               <p>We are approximately 2 km away from the Hikkaduwa main point / Hotel Vibration. Head towards Galle, passing by the Hotel Lavanga. Keep an eye out for our Coconut Club  sign on the right.</p>
-              <h3>From Galle</h3>
+              <h3>FROM GALLE</h3>
               <p>Make your way towards Hikkaduwa on Galle Rd. Pass the Kumarakanda Junction (and the Kumarakanda Maha Viharaya temple with the standing Buddha statue), continue straight for about 500 m and we are on the left.</p>
           </div>
         </div>

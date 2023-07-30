@@ -4,16 +4,16 @@ const Landing = () => {
     <div className="landing-container">
       <div className="hero background-images">
       <div className="text-title">
-          <h1>Coconut Club Beach Cafe</h1>
+          <h1>COCONUT CLUB</h1>
           <h2>Hikkaduwa, Sri Lanka</h2>
       </div>
       </div>
       <div className="landing-flex">
         <div className="landing-detail">
           <p>
-          in sunny
+          IN SUNNY
           <br />
-          sri lanka
+          SRI LANKA
           </p>
         </div>
         <div className="landing-text">
@@ -22,9 +22,9 @@ const Landing = () => {
         </div>
         <div className="landing-detail">
           <p>
-          slow down,
+          SLOW DOWN,
           <br />
-          take it easy
+          TAKE IT EASY
           </p>
         </div>
       </div>
