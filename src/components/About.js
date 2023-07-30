@@ -14,7 +14,7 @@ const About = () => {
       <div className="main-text">
       <h2 className="title">WELCOME</h2>
         <p>At Coconut Club Beach Cafe, we are more than just a cafe. We are a labor of love and a culmination of passion for the ocean, surf, and vibrant culinary experiences. Let us introduce ourselves and share our story. </p>
-        <p>Founded by Sumith, a seasoned surf instructor and hospitality professional, Coconut Club is the realization of a lifelong dream. With years of experience working as a surf instructor and just down the beach at Salty Swami's, Sumith's love for the beach and his expertise in hospitality converged to create this beachside haven.</p>
+        <p>Founded by Sumith Kumara, a seasoned surf instructor and hospitality professional, Coconut Club is the realization of a lifelong dream. With years of experience working as a surf instructor and just down the beach at Salty Swami's, Sumith's love for the beach and his expertise in hospitality converged to create this beachside haven.</p>
         <p>Our journey began in early 2020 when Sumith opened his first restaurant, a vegan cafe, in Hikkaduwa. Unfortunately, challenges posed by the global pandemic altered plans. Undeterred, we adapted and transformed our vision to create Coconut Club Beach Cafe, a place where locals and travelers alike can immerse themselves in the beauty of our backyard beach.
         </p>
         <h2 className="title">VALUES & VISION</h2>

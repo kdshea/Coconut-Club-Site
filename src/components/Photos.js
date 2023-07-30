@@ -4,7 +4,7 @@ const Photos = () => {
 <div className="photos-container">
   <div className="photos-hero background-images">
     <div className="text-title">
-      <h1>IN-WATER SURF PHOTOS & VIDEO</h1>
+      <h1>in-water surf photos & video</h1>
     </div>
   </div>
   <div className="main-text">

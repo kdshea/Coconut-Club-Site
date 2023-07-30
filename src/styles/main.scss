@@ -23,7 +23,9 @@ $serif: 'Cormorant Garamond', serif;
 
 h1{
   color: $orange;
-  font-size: 3rem;
+  font-family: $serif;
+  font-size: 5rem;
+  font-weight: bold;
   text-shadow: 0 0 5px rgba(0,0,0,.8);
   font-weight: bold;
 }
