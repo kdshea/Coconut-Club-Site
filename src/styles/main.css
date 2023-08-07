@@ -21,7 +21,7 @@ h1 {
 }
 
 .text-title {
-  margin-top: 35rem;
+  margin-top: 30rem;
 }
 
 .main-text {
@@ -78,7 +78,7 @@ a, a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
   top: -84.2px;
   padding-top: 84.2px;
@@ -301,6 +301,10 @@ nav .dropdown-menu {
 
 .photos-hero {
   background-image: url(../assets/photos-bg.jpg), linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7));
+}
+
+.photos-hero {
+  background-position-x: 60%;
 }
 
 .buttons-container {

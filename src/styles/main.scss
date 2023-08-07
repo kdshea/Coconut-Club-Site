@@ -31,7 +31,7 @@ h1{
 }
 
 .text-title{
-  margin-top: 35rem;
+  margin-top: 30rem;
 }
 
 .main-text{
@@ -92,7 +92,7 @@ a,  a:hover {
   background-repeat: no-repeat; 
   background-size: cover;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
   top: -84.2px;
   padding-top: 84.2px;
@@ -345,7 +345,14 @@ nav {
 // Photos Styles
 .photos-hero {
   background-image: url(../assets/photos-bg.jpg), $black-overlay;
+
 }
+@media screen and (max-width: 765px){
+}
+.photos-hero{
+  background-position-x: 60%;
+}
+
 
 // Route Buttons Styles
 
