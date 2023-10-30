@@ -2,14 +2,17 @@ $tan: #F3EBE1;
 $orange: #C1895D;
 $nav-overlay: linear-gradient(rgba(242,235,226,0.6),rgba(242,235,226,0.3));
 $black-overlay: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7));
-$sans-serif: 'Plus Jakarta Sans', sans-serif;
-$serif: 'Cormorant Garamond', serif;
+
+
+$heading:'Oswald', sans-serif;
+$paragraph: 'Nunito Sans', sans-serif;
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: $sans-serif;
+  font-family: $paragraph;
 }
 
 @media only screen and (min-width : 800px) {
@@ -23,7 +26,7 @@ $serif: 'Cormorant Garamond', serif;
 
 h1{
   color: $orange;
-  font-family: $serif;
+  font-family: $heading;
   font-size: 5rem;
   font-weight: bold;
   text-shadow: 0 0 5px rgba(0,0,0,.8);
@@ -65,7 +68,7 @@ h1{
 .title {
   font-size: 2.2rem;
   font-weight: bold;
-  font-family: $serif;
+  font-family: $heading;
   color: $orange;
   margin: 1rem auto;
 }
@@ -148,7 +151,8 @@ nav {
   $black-overlay;
   .text-title{
     h1{
-      font-family: $serif;
+      font-family: $heading;
+
       color: $tan;
       font-weight: normal;
     }
@@ -171,7 +175,7 @@ nav {
   margin: 60px auto;
   max-width: 250px;
   p{
-    font-family: $serif;
+    font-family: $heading;
     font-size: 1.5rem;
   }
 }
@@ -266,7 +270,7 @@ nav {
   font-size: 1.5rem;
   h3{
     font-weight: bold;
-    font-family: $serif;
+    font-family: $heading;
     color: $orange;
     margin: 1rem auto;
   }
