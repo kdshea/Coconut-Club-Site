@@ -13,7 +13,7 @@ const Footer = () => {
           <br />
           <span>Email | coconutclubhikka@gmail.com</span>
           <br />
-          <span>Whastapp | +94 (74) 335 5294</span>
+          <span>Whastapp | +94 74 310 2873</span>
         </div>
         <div className="links">
             <div>
@@ -27,7 +27,7 @@ const Footer = () => {
               </a>
             </div>
             <div>
-              <a href="https://wa.me/94743355294?text=Hello" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/94743102873?text=Hello" target="_blank" rel="noopener noreferrer">
               <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/whatsapp--v1.png" alt="whatsapp--v1"/>
               </a>
             </div>

@@ -11,9 +11,9 @@ const Location = () => {
       <div className="hours-container">
         <h2 className="title">HOURS</h2>
         <div>
-          <p>Open Daily at 10am
+          <p>Open Daily at 8am
             <br />
-            Serving Breakfast til Noon
+            Serving Breakfast til 2
             <br />
             Dinner til 9pm & Drinks til Late
           </p>
