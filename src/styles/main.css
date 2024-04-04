@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 @media only screen and (min-width: 800px) {
@@ -13,7 +13,7 @@
 }
 h1 {
   color: #C1895D;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Oswald", sans-serif;
   font-size: 5rem;
   font-weight: bold;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
@@ -21,7 +21,7 @@ h1 {
 }
 
 .text-title {
-  margin-top: 30rem;
+  margin-top: 20rem;
 }
 
 .main-text {
@@ -51,7 +51,7 @@ h1 {
 .title {
   font-size: 2.2rem;
   font-weight: bold;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Oswald", sans-serif;
   color: #C1895D;
   margin: 1rem auto;
 }
@@ -132,7 +132,7 @@ nav .dropdown-menu {
   background-image: url(../assets/landing-bg.jpg), linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7));
 }
 .hero .text-title h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Oswald", sans-serif;
   color: #F3EBE1;
   font-weight: normal;
 }
@@ -154,7 +154,7 @@ nav .dropdown-menu {
   max-width: 250px;
 }
 .landing-detail p {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -232,7 +232,7 @@ nav .dropdown-menu {
 }
 .location-container h3 {
   font-weight: bold;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Oswald", sans-serif;
   color: #C1895D;
   margin: 1rem auto;
 }
